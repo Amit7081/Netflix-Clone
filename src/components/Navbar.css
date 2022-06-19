@@ -1,0 +1,36 @@
+.nav{
+
+    position:fixed;
+    top:0;
+    width:100%;
+    display:flex;
+    padding:20px;
+    height:30px;
+    /* Z-index:1; */
+    justify-content:space-between;
+    background-color: #111;
+
+    /* Animation */
+    transition-timing-function:ease-in;
+    transition:all 0.5s;
+
+}
+
+.nav_logo{
+    position:fixed;
+    left:0;
+    width:80px;
+    object-fit:contain;
+
+}
+.nav_avtar{
+    position:fixed;    
+    width:30px;
+    right:20px;
+    object-fit:contain;
+}
+
+.nav_black{
+background-color: #111;
+
+}
